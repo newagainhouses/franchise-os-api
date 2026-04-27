@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="franchise-os-api/franchise-os-api.csproj" />
+  <Project Path="franchise-os-entities/franchise-os-entities.csproj" />
+</Solution>
