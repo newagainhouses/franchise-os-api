@@ -1,0 +1,136 @@
+## Standard .gitignore for .NET projects.
+## Based on `dotnet new gitignore` plus common additions for Visual Studio,
+## Rider, VS Code, and EF Core.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# MSTest / NUnit / xUnit test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Build server / CI
+*.tlog
+*.log
+*.binlog
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Restored package directories (when not using PackageReference)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+*.nuget.cache
+*.assets.json
+*.csproj.user
+*.csproj.AssemblyReference.cache
+
+# EF Core migrations bundle output
+ef-migrations-bundle*
+
+# ASP.NET / IIS
+.publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+PublishScripts/
+*.pubxml
+*.pubxml.user
+PublishProfiles/
+
+# Other build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.docstates
+*.swp
+
+# Environment / secrets
+*.env
+*.env.*
+!*.env.example
+secrets.json
+appsettings.*.Local.json
+appsettings.Development.local.json
+
+# Coverage / profiler output
+*.coverage
+*.coveragexml
+*.gcov
+BenchmarkDotNet.Artifacts/
+
+# Backup & report files
+*.bak
+*.cache
+*.tmp
+*.swp
+*~
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / front-end (if any tooling lives alongside)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Visual Studio profiler / IntelliTrace
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.dgspec.json
